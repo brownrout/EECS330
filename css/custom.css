@@ -168,12 +168,17 @@ fieldset[disabled] .btn-xl.active {
     background-color: #222;
 }
 
+.navbar-brand {
+    padding: 10px 15px;
+}
+
 .navbar-default .navbar-brand {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 800;
     letter-spacing: 1px;
     color: #000;
+    border:5px solid black;
 }
 
 .navbar-default .navbar-brand:hover,
