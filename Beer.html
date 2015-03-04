@@ -19,7 +19,7 @@
     <link href="./css/custom.css" rel="stylesheet">
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="./Beer_files/ie-emulation-modes-warning.js"></script>
+    <script src="./js/ie-emulation-modes-warning.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -40,7 +40,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Beer Club</a>
+                <a class="navbar-brand page-scroll" href="#">Beer Club</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -77,7 +77,23 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Beer Club is about good conversation, and better beer.</h2>
+                    <h2 class="section-heading">Whatever your angle, Beer Club has something for you</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-lg-12" id="white-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum leo erat, condimentum sed malesuada ut, tincidunt in justo. Proin mi tellus, vestibulum quis porttitor a, accumsan eu nisi. Quisque vestibulum leo vel libero ornare imperdiet ut a lorem. Donec luctus orci lectus, sit amet sollicitudin sapien imperdiet vel. Donec varius, orci nec mollis tempus, ante leo hendrerit ante, sed tempus tellus turpis in diam. Fusce in interdum nulla. Fusce in metus vel nibh ornare luctus in non purus.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="how-it-works">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">How Beer Club Works</h2>
                     <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
             </div>
@@ -93,45 +109,55 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Clubs Near <a id="city-dropdown">Evanston</a></h2>
+                    <h2 class="section-heading">Clubs Near <!--<a id="city-dropdown">Evanston<b class="caret"></b></a>--><a href="#" class="dropdown-toggle" id="city-dropdown" data-toggle="dropdown">Evanston<b class="caret"></b></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a>Chicago</a></li>
+                        <li role="presentation" class="divider"></li>
+                        <li><a>Skokie</a></li>
+                        <li role="presentation" class="divider"></li>
+                        <li><a>Deerpark</a></li>
+                        <li role="presentation" class="divider"></li>
+                        <li><a href="mailto:example@beerclub.com">City Not Listed?</a></li>
+                    </ul>
+                  </h2>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-6 event-listing">
                   <img src="http://placehold.it/75x75" class="event-thumbnail">
-                    <h4>Event One  <small>Event Location</small></h4>
+                    <h4>Chicago Bears Club  <small>Buffalo Wild Wings</small></h4>
                     <h6>March 6th, 2015</h6>
-                    <p>Here is a little blurb about the Beer Club if it wasn't clear enough...</p>
+                    <p>Here is a little blurb about the specific Beer Club...</p>
                 </div>
                 <div class="col-lg-6 event-listing">
                   <img src="http://placehold.it/75x75" class="event-thumbnail">
-                    <h4>Event One  <small>Event Location</small></h4>
-                    <h6>March 6th, 2015</h6>
-                    <p>Here is a little blurb about the Beer Club if it wasn't clear enough...</p>
+                    <h4>Tech Networking  <small>Lou's Bar and Grill</small></h4>
+                    <h6>March 9th, 2015</h6>
+                    <p>Here is a little blurb about the specific Beer Club...</p>
                 </div>
                 <div class="col-lg-6 event-listing">
                   <img src="http://placehold.it/75x75" class="event-thumbnail">
-                    <h4>Event One  <small>Event Location</small></h4>
-                    <h6>March 6th, 2015</h6>
-                    <p>Here is a little blurb about the Beer Club if it wasn't clear enough...</p>
+                    <h4>Beginner's Beer Club  <small>World of Beer</small></h4>
+                    <h6>March 12th, 2015</h6>
+                    <p>Here is a little blurb about the specific Beer Club...</p>
                 </div>
                 <div class="col-lg-6 event-listing">
                   <img src="http://placehold.it/75x75" class="event-thumbnail">
-                    <h4>Event One  <small>Event Location</small></h4>
-                    <h6>March 6th, 2015</h6>
-                    <p>Here is a little blurb about the Beer Club if it wasn't clear enough...</p>
+                    <h4>Just Moved Here  <small>Sagebrush</small></h4>
+                    <h6>March 13th, 2015</h6>
+                    <p>Here is a little blurb about the specific Beer Club...</p>
                 </div>
                 <div class="col-lg-6 event-listing">
                   <img src="http://placehold.it/75x75" class="event-thumbnail">
-                    <h4>Event One  <small>Event Location</small></h4>
-                    <h6>March 6th, 2015</h6>
-                    <p>Here is a little blurb about the Beer Club if it wasn't clear enough...</p>
+                    <h4>Northwestern Alumni  <small>The Keg</small></h4>
+                    <h6>March 13th, 2015</h6>
+                    <p>Here is a little blurb about the specific Beer Club...</p>
                 </div>
                 <div class="col-lg-6 event-listing">
                   <img src="http://placehold.it/75x75" class="event-thumbnail">
-                    <h4>Event One  <small>Event Location</small></h4>
-                    <h6>March 6th, 2015</h6>
-                    <p>Here is a little blurb about the Beer Club if it wasn't clear enough...</p>
+                    <h4>Belgian Beers  <small>Evanston Space</small></h4>
+                    <h6>March 18th, 2015</h6>
+                    <p>Here is a little blurb about the specific Beer Club...</p>
                 </div>
                 <center>
                 <div class="col-lg-12">
@@ -145,10 +171,10 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="./Beer_files/jquery.min.js"></script>
-    <script src="./Beer_files/bootstrap.min.js"></script>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="./Beer_files/ie10-viewport-bug-workaround.js"></script>
+    <script src="./js/ie10-viewport-bug-workaround.js"></script>
   
 
 </body></html>
