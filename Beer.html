@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<!-- saved from url=(0050)http://getbootstrap.com/examples/starter-template/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/beer.ico">
+
+    <title>Beer Club</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="http://getbootstrap.com/examples/starter-template/starter-template.css" rel="stylesheet">
+
+    <link href="./css/custom.css" rel="stylesheet">
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="./js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div id="header-custom" class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" dampta-target="#bs-exale-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#">Beer Club</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <!-- Implement page scrolling for the two options below -->
+                        <a class="page-scroll" href="#how-it-works">How It Works</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#clubs">Find Beer Clubs</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#description">Become a Moderator</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+     <header>
+        <div class="container">
+            <div class="intro-text">
+                <center><div class="intro-lead-in">Great Beer. Even Better Conversation.</div><center></center>
+                <center><div class="intro-heading">Beer Club</div></center>
+                <a href="#clubs" class="page-scroll btn btn-xl" id="call-to-action">Join the Club</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Whatever your angle, Beer Club has something for you</h2>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-lg-12" id="white-text">
+                        Beer Club is a new way for people to come together, hang out, and have meaningful interactions. Whether it’s meeting with fellow alumni, watching the game with some fans, or simply casually chatting with total strangers, Beer Club has something for you. Unlike other meetup services, Beer Club strives to foster conversation. We take much pride in our team of highly qualified moderators that accompany clubs and ensure the Beer Club experience is consistently excellent.
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="how-it-works">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">How Beer Club Works</h2>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-lg-12" >
+                   <div class="row">
+                        <div class="col1">1</div> 
+                        <div class="col2">Peruse the list of local clubs below and select one that interests you.</div>
+                    </div>
+                    <div class="row">
+                        <div class="col1">2</div>
+                        <div class="col2">Simply enter your email and you’re all set!</div>
+                    </div> 
+                    <div class="row">
+                        <div class="col1">3</div>
+                        <div class="col2">A moderator will contact you and the other attendees confirming the meetup location and time. </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="clubs">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Clubs Near <!--<a id="city-dropdown">Evanston<b class="caret"></b></a>--><a href="#" class="dropdown-toggle" id="city-dropdown" data-toggle="dropdown">Evanston</a><b class="caret"></b>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a onclick="cityChange('Chicago')">Chicago</a></li>
+                        <li role="presentation" class="divider"></li>
+                        <li><a onclick="cityChange('Skokie')">Skokie</a></li>
+                        <li role="presentation" class="divider"></li>
+                        <li><a onclick="cityChange('Deerpark')">Deerpark</a></li>
+                        <li role="presentation" class="divider"></li>
+                        <li><a href="mailto:example@beerclub.com">City Not Listed?</a></li>
+                    </ul>
+                  </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 event-listing">
+                  <img src="img/bears.jpg" class="event-thumbnail" id="bears">
+                    <h4><a href="Club.html" class="event-title">Chicago Bears Club</a> <small>Buffalo Wild Wings</small></h4>
+                    <h6>March 6th, 2015</h6>
+                    <p>Come hang with like-minded Chicago Bears fans, and maybe learn something new about your favorite team.</p>
+                </div>
+                <div class="col-lg-6 event-listing">
+                  <img src="http://placehold.it/100x100" class="event-thumbnail">
+                    <h4><a href="Club.html" class="event-title">Tech Networking </a> <small>Lou's Bar and Grill</small></h4>
+                    <h6>March 9th, 2015</h6>
+                    <p>Join this club and extend your professional network over a pint of brew with like-minded tech enthusiasts.</p>
+                </div>
+                <div class="col-lg-6 event-listing">
+                  <img src="http://placehold.it/100x100" class="event-thumbnail">
+                    <h4><a href="Club.html" class="event-title">Beginner's Beer Club</a>  <small>World of Beer</small></h4>
+                    <h6>March 12th, 2015</h6>
+                    <p>Join other beer newbies in experiencing firsthand why so many are passionate about beer.  Maybe you’ll make a new friend along the way.</p>
+                </div>
+                <div class="col-lg-6 event-listing">
+                  <img src="http://placehold.it/100x100" class="event-thumbnail">
+                    <h4><a href="Club.html" class="event-title">Just Moved Here </a> <small>Sagebrush</small></h4>
+                    <h6>March 13th, 2015</h6>
+                    <p>New to town? Join this club to meet others who have recently moved here and witness the power of beer to establish new friendships.</p>
+                </div>
+                <div class="col-lg-6 event-listing">
+                  <img src="http://placehold.it/100x100" class="event-thumbnail">
+                    <h4><a href="Club.html" class="event-title">Northwestern Alumni</a>  <small>The Keg</small></h4>
+                    <h6>March 13th, 2015</h6>
+                    <p>Sit down with other Northwestern University alumni over your favorite beer, to discuss new developments as well as old memories.</p>
+                </div>
+                <div class="col-lg-6 event-listing">
+                  <img src="http://placehold.it/100x100" class="event-thumbnail">
+                    <h4><a href="Club.html" class="event-title">Belgian Beers </a> <small>Evanston Space</small></h4>
+                    <h6>March 18th, 2015</h6>
+                    <p>If you like Belgium, are Belgian, or just like really to savor amazing beer, join this club to experience some of the finest beer from Belgium.</p>
+                </div>
+                <center>
+                <div class="col-lg-12">
+                    <a class="btn btn-xl" id="load" onclick="loadMore('LOADING MORE EVENTS...')">Load More Clubs</a>
+                </div></center>
+            </div>
+        </div>
+    </section>
+     <section id="description">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Want to start a beer club of your own?<br> Apply to become a moderator.</h2>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-lg-12" id="white-text">
+                        Becoming a moderator means that you are passionate about people, beer, and networking.  Once you submit your information to us, we will review your profile and set up a quick phone call to see if you’re right for the job.  It’s not a hard one, but a moderator needs to be able to motivate conversation throughout a Beer Club session and make sure that conversation remains somewhat related to the topic at hand.  You’ll still get to relax and enjoy the normal perks of Beer Club, but with a little added responsibility.  You’ll also be involved in approving applicants for your specific Beer Club.  All are welcome to apply!
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <div class="row" id="moderator-div">
+    <form>
+    <center>
+    <div class="moderator">
+
+        <div class="form-group">
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Full Name">
+        </div>
+
+        <div class="form-group">
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email Address">
+        </div>
+
+        <div class="form-group">
+            <textarea class="form-control" rows="3" placeholder="Tell us why you'd make a killer moderator."></textarea>
+        </div>
+        
+        <center>
+        <div class="form-group">
+        <div id="button-custom">
+            <button class="btn btn-default">Submit</button>
+        </div>
+        </div>
+        </center>
+        </div></center>
+    </form>
+    </div>
+
+    <!-- custom javascript -->
+    <script src="./js/beer.js"></script>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./js/ie10-viewport-bug-workaround.js"></script>
+  
+
+</body></html>
