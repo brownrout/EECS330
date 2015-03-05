@@ -282,6 +282,21 @@ header {
     padding-top: 100px;
 }
 
+.header_club {
+    text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+    background-image: url(../img/solider-field-ap.jpg);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 100px;
