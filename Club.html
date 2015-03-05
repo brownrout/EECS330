@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="http://getbootstrap.com/favicon.ico">
+    <link rel="icon" href="img/beer.ico">
 
     <title>Beer Club</title>
 
@@ -47,18 +47,42 @@
     </nav>
     <header class="header_club">
         <div class="container">
-        <a href="Beer.html#clubs" id="go_back">Back to Events</a>
-            <div class="intro-text">
-                <center><div class="intro-lead-in">Chicago Bears Beer Club</div><center></center>
-                <center><div class="club-info">March 6th, 2015 | Buffalo Wild Wings</div><center></center>
+        <a href="Beer.html#clubs" id="go_back">Back</a>
+            <div class="intro-text-2">
+                <center>
+                <div class="intro-lead-in-2">Chicago Bears Beer Club</div>
+                <center><div class="club-info">MARCH 6TH, 2015 | BUFFALO WILD WINGS</div>
+
+                <div>
+                    <center>
+                        <form class="form-inline">
+                            <div class="form-group">
+                                <input type="input" class="form-control" id="inputPassword2" placeholder="Email Address">
+                            </div>
+                            <button class="btn btn-default" id="sign-up" onclick="return signUps('THANKS FOR SIGNING UP!')">Sign Up</button>
+                        </form>
+                    </center>
+                </div>
+
+                <div id="replace">
+
+                </div>
             </div>
         </div>
     </header>
 
-    <section id="form">
-        <input type="text" placeholder="Email">
-        <input type="submit" value="Submit">
-    </section>
+    <div class="row event-info">
+        <div class="col-lg-4">
+            <img src="img/clemence.png" class="profile-pic">
+            <h6 id="name">Clemence Bridgewater<br><small>Moderator since June, 2012</small></h6>
+
+        </div>
+
+        <div class="col-lg-8" id="event-blurb">
+        <p style="font-size:1.5em;padding-right:15px;">
+            This is a Beer Club for anyone who is interested the Chicago Bears.  Whether you are only a fan because you’re from Chicago, your buddies are Bears fans and you cheer with them, you’ve been a die-hard fan since you were 4, or you’re a hardcore sports statistics enthusiast, this Beer Club will have something to offer you.  Request to attend this Beer Club and you’re signing up for a solid block of your near future guaranteed to be entirely concerned with all things Bears (and beer).  Bring your knowledge, competitive spirit, fandom, and of course a six-pack to the table and meet some new Bears fans.<br><br></p>
+        </div>
+    </div>
 
     <!-- custom javascript -->
     <script src="./js/beer.js"></script>
