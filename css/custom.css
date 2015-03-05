@@ -558,3 +558,28 @@ input [type="submit"]:focus {
     outline: none;
 }
 
+#white-text {
+    font-size: 1.5em;
+}
+
+.moderator {
+    width: 50%;
+    text-align: left;
+    margin-top: 40px;
+}
+
+#moderator-div {
+    background-color: #fee100;
+    padding: 0px;
+    margin: 0px;
+}
+
+#button-custom {
+    width:100%;
+    margin-bottom: 50px;
+}
+
+#bears {
+    width:112px;
+}
+
