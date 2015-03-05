@@ -28,7 +28,7 @@ a.active {
 }
 
 a {
-    color: #FEE100;
+    color: #333;
 }
 
 a:hover,
@@ -463,3 +463,79 @@ body {
 #how-it-works {
     background-color: #fff;
 }
+
+.row {
+    width: 100%;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.col1 {
+    margin-bottom: 20px;
+    margin-left: 100px;
+    width: 55px;
+    border-radius: 50%;
+    border:5px solid black;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+    /*color: #000;*/
+}
+
+.col2 {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    float: left;
+}
+
+/*Moderator css*/
+
+#description {
+    background-color: #000;
+    color: #fee100;
+}
+
+#form {
+    background-color: #fee100;
+    padding-top: 5px;
+}
+
+#application_form {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 50%;
+  font-family: sans-serif;
+  font-size: 18px;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+}
+
+#application_form:focus {
+    border: solid 1px #707070;
+    box-shadow: 0 0 5px 1px #333;
+    outline: none;
+}
+
+input[type="submit"] {
+    display: block;
+    border: solid 1px #707070;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #FFF;
+}
+
+input [type="submit"]:focus {
+    outline: none;
+}
+
