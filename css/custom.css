@@ -309,6 +309,17 @@ header .intro-text .intro-lead-in {
     line-height: 22px;
 }
 
+.club-info {
+    font-size: 20px;
+    margin-bottom: 25px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #FEE100;
+    color: #000;
+    width:800px;
+    font-size: 20px;
+    line-height: 50px;
+}
+
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
@@ -581,5 +592,15 @@ input [type="submit"]:focus {
 
 #bears {
     width:112px;
+}
+
+#go_back {
+    float: left;
+    font-size: 20px;
+    color: #FEE100
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #000;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 800;
 }
 
