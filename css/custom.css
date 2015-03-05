@@ -663,3 +663,7 @@ input [type="submit"]:focus {
     background-color: #0f0f0f;
     width:320px;
 }
+
+#special-link {
+    color: #FAB934;
+}
