@@ -119,13 +119,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Clubs Near <!--<a id="city-dropdown">Evanston<b class="caret"></b></a>--><a href="#" class="dropdown-toggle" id="city-dropdown" data-toggle="dropdown">Evanston<b class="caret"></b></a>
+                    <h2 class="section-heading">Clubs Near <!--<a id="city-dropdown">Evanston<b class="caret"></b></a>--><a href="#" class="dropdown-toggle" id="city-dropdown" data-toggle="dropdown">Evanston</a><b class="caret"></b>
                     <ul class="dropdown-menu" role="menu">
-                        <li><a>Chicago</a></li>
+                        <li><a onclick="cityChange('Chicago')">Chicago</a></li>
                         <li role="presentation" class="divider"></li>
-                        <li><a>Skokie</a></li>
+                        <li><a onclick="cityChange('Skokie')">Skokie</a></li>
                         <li role="presentation" class="divider"></li>
-                        <li><a>Deerpark</a></li>
+                        <li><a onclick="cityChange('Deerpark')">Deerpark</a></li>
                         <li role="presentation" class="divider"></li>
                         <li><a href="mailto:example@beerclub.com">City Not Listed?</a></li>
                     </ul>
@@ -134,44 +134,44 @@
             </div>
             <div class="row">
                 <div class="col-lg-6 event-listing">
-                  <img src="http://placehold.it/75x75" class="event-thumbnail">
-                    <h4><a href="Club.html">Chicago Bears Club</a> <small>Buffalo Wild Wings</small></h4>
+                  <img src="http://placehold.it/100x100" class="event-thumbnail">
+                    <h4><a href="Club.html" class="event-title">Chicago Bears Club</a> <small>Buffalo Wild Wings</small></h4>
                     <h6>March 6th, 2015</h6>
                     <p>Come hang with like-minded Chicago Bears fans, and maybe learn something new about your favorite team.</p>
                 </div>
                 <div class="col-lg-6 event-listing">
-                  <img src="http://placehold.it/75x75" class="event-thumbnail">
-                    <h4><a href="Club.html">Tech Networking </a> <small>Lou's Bar and Grill</small></h4>
+                  <img src="http://placehold.it/100x100" class="event-thumbnail">
+                    <h4><a href="Club.html" class="event-title">Tech Networking </a> <small>Lou's Bar and Grill</small></h4>
                     <h6>March 9th, 2015</h6>
                     <p>Join this club and extend your professional network over a pint of brew with like-minded tech enthusiasts.</p>
                 </div>
                 <div class="col-lg-6 event-listing">
-                  <img src="http://placehold.it/75x75" class="event-thumbnail">
-                    <h4><a href="Club.html">Beginner's Beer Club</a>  <small>World of Beer</small></h4>
+                  <img src="http://placehold.it/100x100" class="event-thumbnail">
+                    <h4><a href="Club.html" class="event-title">Beginner's Beer Club</a>  <small>World of Beer</small></h4>
                     <h6>March 12th, 2015</h6>
                     <p>Join other beer newbies in experiencing firsthand why so many are passionate about beer.  Maybe you’ll make a new friend along the way.</p>
                 </div>
                 <div class="col-lg-6 event-listing">
-                  <img src="http://placehold.it/75x75" class="event-thumbnail">
-                    <h4><a href="Club.html">Just Moved Here </a> <small>Sagebrush</small></h4>
+                  <img src="http://placehold.it/100x100" class="event-thumbnail">
+                    <h4><a href="Club.html" class="event-title">Just Moved Here </a> <small>Sagebrush</small></h4>
                     <h6>March 13th, 2015</h6>
                     <p>New to town? Join this club to meet others who have recently moved here and witness the power of beer to establish new friendships.</p>
                 </div>
                 <div class="col-lg-6 event-listing">
-                  <img src="http://placehold.it/75x75" class="event-thumbnail">
-                    <h4><a href="Club.html">Northwestern Alumni</a>  <small>The Keg</small></h4>
+                  <img src="http://placehold.it/100x100" class="event-thumbnail">
+                    <h4><a href="Club.html" class="event-title">Northwestern Alumni</a>  <small>The Keg</small></h4>
                     <h6>March 13th, 2015</h6>
                     <p>Sit down with other Northwestern University alumni over your favorite beer, to discuss new developments as well as old memories.</p>
                 </div>
                 <div class="col-lg-6 event-listing">
-                  <img src="http://placehold.it/75x75" class="event-thumbnail">
-                    <h4><a href="Club.html">Belgian Beers </a> <small>Evanston Space</small></h4>
+                  <img src="http://placehold.it/100x100" class="event-thumbnail">
+                    <h4><a href="Club.html" class="event-title">Belgian Beers </a> <small>Evanston Space</small></h4>
                     <h6>March 18th, 2015</h6>
                     <p>If you like Belgium, are Belgian, or just like really to savor amazing beer, join this club to experience some of the finest beer from Belgium.</p>
                 </div>
                 <center>
                 <div class="col-lg-12">
-                    <a href="" class="btn btn-xl">Load More Clubs</a>
+                    <a class="btn btn-xl" id="load" onclick="loadMore('LOADING MORE EVENTS...')">Load More Clubs</a>
                 </div></center>
             </div>
         </div>

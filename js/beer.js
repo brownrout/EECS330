@@ -1,25 +1,10 @@
-// $(window).scroll(function() {
-//     if ($(".navbar").offset().top > 50) {
-//         $(".navbar-fixed-top").addClass("top-nav-collapse");
-//     } else {
-//         $(".navbar-fixed-top").removeClass("top-nav-collapse");
-//     }
-// });
 
-// $(function() {
-//     $('a.page-scroll').bind('click', function(event) {
-//         var $anchor = $(this);
-//         $('html, body').stop().animate({
-//             scrollTop: $($anchor.attr('href')).offset().top
-//         }, 1500, 'easeInOutExpo');
-//         event.preventDefault();
-//     });
-// });
+function cityChange(x) {
+// Called when selects from 
+   document.getElementById("city-dropdown").innerHTML = x;
+}
 
-$(function(){
-  //$(".dropdown-toggle").dropdown('toggle'); // this works
-  $('#click').click(function(e){
-      e.stopPropagation();
-    $(".dropdown-toggle").dropdown('toggle');// this doesn't
-  });
-});
+function loadMore(x) {
+// Called when selects from 
+   document.getElementById("load").innerHTML = x;
+}

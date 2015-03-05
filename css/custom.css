@@ -421,6 +421,10 @@ body {
     padding-bottom:20px;
 }
 
+.event-title:hover {
+    color:#fff;
+}
+
 .event-thumbnail {
     float:left;
     padding-right: 15px;
